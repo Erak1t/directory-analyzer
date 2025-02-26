@@ -20,13 +20,9 @@ To use the directory analyzer, you will need Node.js installed on your machine. 
    cd directory-analyzer
 
 
-Usage
+2. Usage
 
-To run the analyzer, modify the directoryPath variable in app.js to the path of the directory you want to analyze. Then run the following command:  node app.js
+To run the analyzer, modify the directoryPath variable in app.js to the path of the directory you want to analyze. Then run the following command: 
 
-The output will display the following information:
-	•	Total number of items (files and directories).
-	•	Total number of files.
-	•	Total size in bytes.
-	•	The largest file and its size.
-	•	A list of all files with their sizes.
+   ```bash
+   node app.js
